@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="SCAN QR" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/uu"
+            android:title="SENT AS SPAM" />
+        <item
+            android:id="@+id/nav_COMPLAINT"
+            android:icon="@drawable/co"
+            android:title="COMPLAINT" />
+        <item
+            android:id="@+id/nav_productdetails"
+            android:icon="@drawable/pd"
+            android:title="PRODUCT DETAILS" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/lo"
+            android:title="LOGOUT" />
+    </group>
+</menu>
